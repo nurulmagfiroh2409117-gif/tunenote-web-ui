@@ -15,19 +15,19 @@ export default function Sidebar() {
         {/* Menu Navigasi Utama */}
         <nav className="space-y-1">
           <Link href="/" className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-semibold bg-gray-100 text-gray-900">
-            <span>🏠</span> Home
+            <span></span> Home
           </Link>
-          <Link href="/catalog" className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition">
-            <span>🔍</span> Discover
+          <Link href="/discover" className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition">
+            <span></span> Discover
           </Link>
           <Link href="/library" className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition">
-            <span>📚</span> My Library
+            <span></span> My Library
           </Link>
           <Link href="/diary" className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition">
-            <span>📖</span> Music Diary
+            <span></span> Music Diary
           </Link>
           <Link href="/following" className="flex items-center gap-3 px-3 py-2.5 rounded-xl text-sm font-medium text-gray-500 hover:bg-gray-50 hover:text-gray-900 transition">
-            <span>👥</span> Following
+            <span></span> Following
           </Link>
         </nav>
       </div>

@@ -1,7 +1,7 @@
 import TrackGrid from "@/components/TrackGrid";
 import Link from "next/link";
 
-export default function CatalogPage() {
+export default function DiscoverPage() {
   return (
     <div className="p-6 md:p-8">
       {/* Top Bar: Judul Halaman, Kolom Pencarian & Tombol Login/Register */}
