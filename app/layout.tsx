@@ -18,7 +18,11 @@ export const metadata: Metadata = {
   description: "Platform katalog musik, koleksi lagu, dan catatan musik digital",
 };
 
-export default function RootLayout({ children }: LayoutProps<"/">) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html
       lang="id"
@@ -26,7 +30,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       <body className="min-h-screen flex bg-gray-50 text-gray-900">
         <Sidebar />
-        <main className="flex-1 overflow-y-auto">
+        <main className="flex-1 overflow-y-auto min-h-screen">
           {children}
         </main>
       </body>
