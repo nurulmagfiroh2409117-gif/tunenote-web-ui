@@ -1,4 +1,3 @@
-// components/SearchBar.tsx
 "use client";
 
 import { useState } from "react";
@@ -8,14 +7,12 @@ interface SearchBarProps {
 }
 
 export default function SearchBar({ onSearchChange }: SearchBarProps) {
-  // Manajemen React State (useState) untuk mengikat nilai input secara real-time
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const rawValue = e.target.value;
     setSearchTerm(rawValue);
 
-    // Penerapan Postel's Law: terima input apa adanya, bersihkan saat diproses
     const normalizedQuery = rawValue.trim().toLowerCase();
     onSearchChange(normalizedQuery);
   };
@@ -27,7 +24,6 @@ export default function SearchBar({ onSearchChange }: SearchBarProps) {
 
   return (
     <div className="relative flex-1 max-w-md">
-      {/* Keterikatan label eksplisit untuk pembaca layar (Screen Reader) */}
       <label htmlFor="tunenote-search" className="sr-only">
         Cari judul lagu, album, atau artis
       </label>
@@ -49,7 +45,6 @@ export default function SearchBar({ onSearchChange }: SearchBarProps) {
         className="w-full pl-10 pr-9 py-2 rounded-full text-xs bg-white border border-gray-300 text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-slate-900"
       />
 
-      {/* Tombol bantu hapus cepat saat kolom terisi */}
       {searchTerm && (
         <button
           type="button"

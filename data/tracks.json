@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "About You",
+    "artist": "The 1975",
+    "album": "Being Funny in a Foreign Language",
+    "genre": "Indie Pop",
+    "isAvailable": true
+  },
+  {
+    "id": 2,
+    "title": "Nights",
+    "artist": "Frank Ocean",
+    "album": "Blonde",
+    "genre": "Alternative R&B",
+    "isAvailable": true
+  },
+  {
+    "id": 3,
+    "title": "Cruel Summer",
+    "artist": "Taylor Swift",
+    "album": "Lover",
+    "genre": "Pop",
+    "isAvailable": true
+  },
+  {
+    "id": 4,
+    "title": "505",
+    "artist": "Arctic Monkeys",
+    "album": "Favourite Worst Nightmare",
+    "genre": "Indie Rock",
+    "isAvailable": false
+  },
+  {
+    "id": 5,
+    "title": "Best Part",
+    "artist": "Daniel Caesar ft. H.E.R.",
+    "album": "Freudian",
+    "genre": "R&B",
+    "isAvailable": true
+  },
+  {
+    "id": 6,
+    "title": "Glimpse of Us",
+    "artist": "Joji",
+    "album": "SMITHEREENS",
+    "genre": "Ballad",
+    "isAvailable": true
+  }
+]

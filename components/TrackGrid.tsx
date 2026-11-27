@@ -46,7 +46,6 @@ export default function TrackGrid() {
         </button>
       </div>
 
-      {/* Layout Grid 4 Kolom (Mobile 1 Kolom -> Tablet 2 -> Laptop 3 -> Desktop 4) */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
         {trendingTracks.map((track) => (
           <TrackCard key={track.id} {...track} />
